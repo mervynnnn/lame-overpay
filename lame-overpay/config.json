@@ -1,0 +1,24 @@
+{
+  "username": "x",
+  "password": "xx",
+  "botname": "MBOT",
+  "identitySecret": "",
+  "sharedSecret": "",
+  "options": {
+    "acceptRandomFriendRequests": true,
+    "priceRefreshInterval": 30,
+    "confirmationInterval": 30,
+    "percentamount": 0.95,
+    "chatResponse": {
+      "donation": "Thanks for the donation!",
+      "tradeDeclined": "Sorry your trade doesn't have sufficient overpay. I value your items at 95%.",
+      "tradeAccepted": "Thanks for the trade!",
+      "newFriend": "Thanks for adding the bot!",
+      "commands": {
+        "!test": "This a test command",
+        "!help": "This is a bot that only accept a trade if it overpays. Item prices and overpay amt can be predefined or api based",
+        "!hello": "Hi, i'm a fucking useless bot that got trade banned so i can't trade shit atm until new bots are added"
+      }
+    }
+  }
+}
